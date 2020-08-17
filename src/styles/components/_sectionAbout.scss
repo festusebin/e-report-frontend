@@ -1,0 +1,76 @@
+.section-about {
+    margin: 0 auto;
+    width: 100%;
+    padding: 5rem 1rem;
+    background-color: #fff;
+    position: relative;
+
+    &__background {
+        // position: absolute;
+        // background: $color-secondary-light;
+        // opacity: 0.71;
+        // transform: rotate(145deg);
+        display: block;
+        width: 250px;
+        height: 280px;
+        border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+        background-size: cover;
+
+        &-top {
+            background: #000000;
+            // transform: rotate(-50deg);
+            display: block;
+            width: 280px;
+            height: 250px;
+            border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+
+
+            // &>* {
+            //     transform: rotate(-95deg);
+            // }
+
+            &-1 {
+                height: 100%;
+                background-size: cover;
+                object-fit: contain;
+                display: block;
+                background: url("../../images/about1.png");
+                width: 280px;
+                height: 250px;
+                border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+            }
+
+            &-2 {
+                height: 100%;
+                background-size: cover;
+                object-fit: contain;
+                display: block;
+                background: url("../../images/about2.png");
+                width: 280px;
+                height: 250px;
+                border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+            }
+
+            &-3 {
+                height: 100%;
+                background-size: cover;
+                object-fit: contain;
+                display: block;
+                background: url("../../images/about3.png");
+                width: 280px;
+                height: 250px;
+                border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+            }
+        }
+
+    }
+}
+
+.section-image {
+    object-fit: cover;
+    max-height: 100%;
+    max-width: 100%;
+    display: block;
+    z-index: -1;
+    padding: 20px;
+}
