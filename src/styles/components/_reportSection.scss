@@ -1,0 +1,109 @@
+.report-section {
+    margin-top: 15rem;
+    height: 70rem;
+    overflow: hidden;
+    z-index: -3;
+    position: relative;
+
+    &-top {
+        // height: 30rem;
+        position: relative;
+        padding-top: 4rem;
+
+        &__heading {
+            color: $color-secondary-dark;
+            height: 5rem;
+            font-style: normal;
+            font-size: 4rem;
+        }
+    }
+
+    &-badges {
+        position: absolute;
+        top: 45rem;
+        left: 50%;
+        height: 40rem;
+        width: 80rem;
+        object-position: center;
+        transform: translate(-50%, -50%);
+
+        &-1 {
+            background: #fff;
+            display: flex;
+            height: 15rem;
+            width: 80rem;
+            margin-bottom: 5rem;
+            border-radius: 10px;
+        }
+
+        &-2 {
+            background: #fff;
+            height: 15rem;
+            width: 80rem;
+            border-radius: 10px;
+        }
+    }
+}
+
+.badge {
+    height: 15rem;
+    width: 20rem;
+    background: red;
+    border: 1px solid black;
+}
+
+.bottom-outline {
+    @include outline-bottom;
+}
+
+.circle-bg-style-1 {
+    position: absolute;
+    top: -10rem;
+    left: 13%;
+    clip-path: circle(50% at 50% 50%);
+    width: 90.8rem;
+    height: 90.8rem;
+    background: #FFEAEA;
+    opacity: 0.47;
+    z-index: -1;
+}
+
+.circle-bg-style-2 {
+    position: absolute;
+    top: -17rem;
+    right: -30rem;
+    width: 58.5rem;
+    height: 58.5rem;
+    background: $color-secondary-dark;
+    clip-path: circle(50% at 50% 50%);
+}
+
+.circle-bg-style-3 {
+    position: absolute;
+    top: 40rem;
+    left: -20rem;
+    width: 58.5rem;
+    height: 58.5rem;
+    background: $color-secondary-dark;
+    clip-path: circle(50% at 50% 50%);
+}
+
+.circle-bg-style-4 {
+    position: absolute;
+    top: 34rem;
+    width: 13.3rem;
+    height: 13.3rem;
+    background: rgba($color-secondary-light, .4);
+    clip-path: circle(50% at 50% 50%);
+    z-index: 2;
+}
+
+.circle-bg-style-5 {
+    position: absolute;
+    top: 55rem;
+    right: 1.5rem;
+    width: 10.7rem;
+    height: 10.7rem;
+    background: rgba($color-secondary-light, .6);
+    clip-path: circle(50% at 50% 50%);
+}

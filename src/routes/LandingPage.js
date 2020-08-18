@@ -5,13 +5,12 @@ import MainSection from "../components/MainSection";
 
 const LandingPage = () => {
   return (
-    <div className="container">
+    <div>
       <Ticker mode="smooth">
         {({ index }) => (
           <>
             <p className="ticker-font">
-              {" "}
-              You're in the right place for report!{" "}
+              You're in the right place for report!
             </p>
           </>
         )}

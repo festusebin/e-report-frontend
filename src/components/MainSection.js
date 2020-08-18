@@ -1,10 +1,12 @@
 import React from "react";
-import SectionAbout from './SectionAbout';
+import AboutSection from "./AboutSection";
+import ReportSection from "./ReportSection";
 
 const MainSection = () => {
   return (
     <main className="container">
-       <SectionAbout />
+      <AboutSection />
+      <ReportSection />
     </main>
   );
 };

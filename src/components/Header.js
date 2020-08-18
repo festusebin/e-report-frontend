@@ -51,7 +51,6 @@ const Header = () => {
                     immediate report
                   </p>
                   <button type="button" className="btn header-button">
-                    {" "}
                     create report
                   </button>
                 </div>
