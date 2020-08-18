@@ -1,0 +1,11 @@
+//Page colors
+$color-primary-light: #D70808;
+$color-primary-dark: #9A082B;
+$color-secondary-light: #508DFF;
+$color-secondary-medium: #134094;
+$color-secondary-dark: #0D2859;
+
+
+$half-border-light: linear-gradient(100deg, $color-secondary-light 0%,
+    $color-secondary-light 50%,
+    transparent 50%);
