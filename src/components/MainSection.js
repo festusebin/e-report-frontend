@@ -4,7 +4,7 @@ import ReportSection from "./ReportSection";
 
 const MainSection = () => {
   return (
-    <main className="container">
+    <main>
       <AboutSection />
       <ReportSection />
     </main>
