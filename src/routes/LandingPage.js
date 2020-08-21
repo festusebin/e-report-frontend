@@ -15,7 +15,7 @@ const LandingPage = () => {
           </>
         )}
       </Ticker>
-      <div>
+      <div className="parent">
         <Header />
         <MainSection />
       </div>

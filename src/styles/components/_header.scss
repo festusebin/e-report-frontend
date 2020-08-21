@@ -8,18 +8,7 @@
         color: $color-primary-light;
     }
 
-    &::before {
-        content: '';
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background-image: linear-gradient(to right bottom, $color-secondary-medium, $color-secondary-dark);
-        opacity: .6;
-        /* !!! */
-        z-index: 10;
-    }
+    @include gradient-top;
 
     &-caption {
         position: absolute;

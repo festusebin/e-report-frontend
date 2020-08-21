@@ -1,0 +1,90 @@
+.agenciesSection {
+    height: 75.6rem;
+
+    &__links {
+        display: flex;
+        width: 86.8rem;
+        margin: 5rem 10rem;
+
+        &-btn {
+            padding: 5rem;
+            width: 20rem;
+            height: 5rem;
+            color: gray;
+            border-bottom: 2px solid gray;
+
+            &:hover {
+                color: $color-secondary-medium;
+                border-bottom: 3px solid $color-secondary-light;
+            }
+        }
+    }
+
+    &__foot {
+        text-align: center;
+        color: $color-secondary-dark;
+        font-size: 1.4rem;
+        padding: 2rem;
+        font-weight: 400;
+    }
+
+    &__cards {
+        display: flex;
+        height: 33.5rem;
+        border-radius: 1rem;
+        margin-top: 10rem;
+
+        &-1 {
+            height: 33.5rem;
+            width: 30.9rem;
+            border-radius: 1rem;
+            margin-right: 6rem;
+
+            &-body {
+                padding: 1rem;
+                font-size: 1.6rem;
+                color: $color-secondary-dark;
+
+                &-text {
+                    line-height: .5;
+                }
+            }
+        }
+
+        &-2 {
+            height: 33.5rem;
+            width: 30.9rem;
+            border-radius: 1rem;
+            margin-right: 6rem;
+        }
+
+        &-3 {
+            height: 33.5rem;
+            width: 30.9rem;
+            border-radius: 1rem;
+        }
+
+        // &:not(:last-child) {
+        //     margin-right: 3rem;
+        //     background: #000;
+        // }
+    }
+
+    &__image-box {
+        height: 19.5rem;
+        width: 100%;
+        border-radius: 1rem 1rem 0 0;
+
+        &-image {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+            border-radius: 1rem 1rem 0 0;
+        }
+    }
+}
+
+.btn-active {
+    color: $color-secondary-medium;
+    border-bottom: 3px solid $color-secondary-light;
+}

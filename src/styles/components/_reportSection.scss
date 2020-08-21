@@ -1,5 +1,6 @@
 .report-section {
     margin-top: 15rem;
+    width: 100%;
     height: 70rem;
     overflow: hidden;
     z-index: -3;
@@ -23,33 +24,83 @@
         top: 45rem;
         left: 50%;
         height: 40rem;
-        width: 80rem;
+        width: 90rem;
         object-position: center;
         transform: translate(-50%, -50%);
 
         &-1 {
-            background: #fff;
+            // background: #fff;
             display: flex;
             height: 15rem;
             width: 80rem;
             margin-bottom: 5rem;
             border-radius: 10px;
+
+            &-badge {
+                height: 15rem;
+                width: 30rem;
+                background: #fff;
+                border-radius: 10px;
+                box-shadow: 0 1rem 4rem rgba(#000, .4);
+
+                &:not(:last-child) {
+                    margin-right: 3rem;
+                }
+
+                &-title {
+                    display: flex;
+
+                    &-text {
+                        height: 10rem;
+                        width: 50%;
+                        padding: 2rem;
+                        font-size: 1.6rem;
+                        line-height: 1.2;
+                        color: $color-secondary-dark;
+                        font-weight: 400;
+                    }
+
+                    &-logo {
+                        margin-left: 5rem;
+                        height: 100%;
+                        width: 40%;
+                        padding: 2rem;
+                    }
+                }
+
+                &-link {
+                    display: flex;
+
+                    &-1 {
+                        padding: 2rem;
+                        font-size: 1.2rem;
+                        color: $color-secondary-dark;
+                        font-weight: 400;
+                    }
+
+                    &-2 {
+                        width: 50%;
+                        padding: 2rem;
+                        color: red;
+                        margin-left: 4rem;
+                        font-weight: 400;
+                    }
+                }
+
+                &:hover {
+                    translate: scale(1.2);
+                }
+            }
         }
+
 
         &-2 {
-            background: #fff;
+            display: flex;
             height: 15rem;
             width: 80rem;
-            border-radius: 10px;
         }
-    }
-}
 
-.badge {
-    height: 15rem;
-    width: 20rem;
-    background: red;
-    border: 1px solid black;
+    }
 }
 
 .bottom-outline {
