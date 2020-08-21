@@ -1,0 +1,21 @@
+.footer {
+    background: $color-secondary-dark;
+    height: 21.3rem;
+    width: 100%;
+    text-align: center;
+    position: relative;
+
+    &-body {
+        position: absolute;
+        color: #fff;
+        top: 50%;
+        left: 40%;
+        translate: transform(-50%, -50%);
+        display: flex;
+        
+
+        &-link {
+            margin-right: 5rem;
+        }
+    }
+}

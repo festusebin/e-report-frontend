@@ -1,6 +1,6 @@
 import React from "react";
 
-export const Badge = ({badgeTitle, badgeLogo}) => {
+export const Badge = ({badgeTitle, badgeLogo}) => { 
   return (
     <div className="report-section-badges-1-badge">
       <div className="report-section-badges-1-badge-title">

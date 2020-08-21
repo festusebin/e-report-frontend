@@ -1,5 +1,6 @@
 import React from "react";
 import { Badge } from "./Badge";
+import CirclesBg from './CirclesBg';
 import police from ".././images/police.png";
 import lasemaa from ".././images/lasemaa.png";
 import fireservice from ".././images/fireservice.png";
@@ -13,14 +14,10 @@ const Reportsection = () => {
       <div className="report-section-top">
         <h2 className="report-section-top__heading">Report Center</h2>
         <div className="bottom-outline"></div>
-        <div className="circle-bg-style-4"></div>
-        <div className="circle-bg-style-1"></div>
-        <div className="circle-bg-style-2"></div>
-        <div className="circle-bg-style-3"></div>
-        <div className="circle-bg-style-5"></div>
+        <CirclesBg />
         <div className="report-section-badges">
           <div className="report-section-badges-1">
-            <Badge badgeTitle="  Police Headquaters" badgeLogo={police}  />
+            <Badge badgeTitle="Police Headquaters" badgeLogo={police}  />
             <Badge badgeTitle="Lagos State Emergency" badgeLogo={lasemaa}  />
             <Badge badgeTitle="Federal Fire Service" badgeLogo={fireservice}  />
           </div>

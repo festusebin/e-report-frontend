@@ -1,0 +1,51 @@
+.downloadSection {
+    height: 75.6rem;
+    background-color: rgba($color-secondary-light, .6);
+    overflow: hidden;
+    position: relative;
+
+    &__download {
+        position: absolute;
+        width: 34.6rem;
+        font-size: 1.6rem;
+        color: #fff;
+        top: 27%;
+        right: 15%;
+        text-align: center;
+    }
+
+    &__pc {
+        position: absolute;
+        top: 27.5rem;
+        left: 17rem;
+        height: 40rem;
+        width: 55rem;
+        border: 1px solid black;
+        border-radius: 1rem;
+
+        &:hover {
+            background-color: #000;
+        }
+
+        &-image {
+            position: absolute;
+            top: 2rem;
+            height: 45.6rem;
+            width: 35rem;
+
+            &--1 {
+                position: absolute;
+                top: 5rem;
+                left: 5rem;
+            }
+
+            &-1 {}
+
+            &-2 {
+                position: absolute;
+                top: 10rem;
+                left: 4.5rem;
+            }
+        }
+    }
+}
